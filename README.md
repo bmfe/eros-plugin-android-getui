@@ -1,1 +1,1 @@
-# eros-plugin-android-getui
+# Android 个推 插件
