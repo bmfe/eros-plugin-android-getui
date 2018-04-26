@@ -12,11 +12,6 @@ android {
 
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
 
-        manifestPlaceholders = [
-                GETUI_APP_ID:GETUI_APPID,
-                GETUI_APP_KEY:GETUI_APPKEY,
-                GETUI_APP_SECRET:GETTUI_APPSECRET,
-        ]
 
     }
 
