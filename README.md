@@ -1,1 +1,1 @@
-# android-eros-plugin-amap
+# android-eros-plugin-getui

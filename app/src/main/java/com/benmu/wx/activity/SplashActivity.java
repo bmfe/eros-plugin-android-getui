@@ -4,19 +4,17 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.os.Handler;
 
+import com.benmu.erosplugingt.manager.GetuiManager;
 import com.benmu.framework.BMWXEnvironment;
 import com.benmu.framework.constant.Constant;
-import com.benmu.framework.constant.WXConstant;
 import com.benmu.framework.constant.WXEventCenter;
 import com.benmu.framework.manager.ManagerFactory;
 import com.benmu.framework.manager.impl.ParseManager;
 import com.benmu.framework.manager.impl.VersionManager;
 import com.benmu.framework.manager.impl.dispatcher.DispatchEventManager;
 import com.benmu.framework.model.RouterModel;
-import com.benmu.framework.model.TitleModel;
 import com.benmu.framework.model.WeexEventBean;
 import com.benmu.wx.R;
-import com.plugamap.manager.GeoManager;
 
 /**
  * Created by Carry on 2017/8/23.
@@ -30,9 +28,9 @@ public class SplashActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
         init();
-        GeoManager mGeoManager = ManagerFactory.getManagerService(GeoManager.class);
-        mGeoManager.initAmap("a3308e6aef150346915922d2ea292590");
+        GetuiManager.pushInit(this.getApplication());
     }
+
 
     private void init() {
         final VersionManager versionManager = ManagerFactory.getManagerService(VersionManager

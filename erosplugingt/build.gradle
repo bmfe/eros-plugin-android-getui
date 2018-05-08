@@ -1,4 +1,6 @@
 apply plugin: 'com.android.library'
+apply plugin: 'com.github.dcendents.android-maven'
+group='myliuyx'
 
 android {
     compileSdkVersion 25
@@ -11,6 +13,7 @@ android {
         versionName '1.0'
 
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        javaCompileOptions.annotationProcessorOptions.includeCompileClasspath = true
 
 
     }
@@ -31,7 +34,7 @@ dependencies {
 
     compile 'com.android.support:appcompat-v7:25.3.1'
     compile 'junit:junit:4.12'
-    compile project(':nexus')
-
+//    compile project(':nexus')
+    compile 'com.github.myliuyx:android-eros-nexus:0.0.2'
     compile files('libs/GetuiSDK2.12.3.0.jar')
 }
