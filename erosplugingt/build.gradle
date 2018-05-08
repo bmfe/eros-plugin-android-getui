@@ -34,7 +34,6 @@ dependencies {
 
     compile 'com.android.support:appcompat-v7:25.3.1'
     compile 'junit:junit:4.12'
-//    compile project(':nexus')
-    compile 'com.github.myliuyx:android-eros-nexus:0.0.2'
+    implementation 'com.github.bmfe:eros-nexus:0.0.3'
     compile files('libs/GetuiSDK2.12.3.0.jar')
 }
