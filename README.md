@@ -1,1 +1,1 @@
-# Android 个推 插件
+# android-eros-plugin-amap
