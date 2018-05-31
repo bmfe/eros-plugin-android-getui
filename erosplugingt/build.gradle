@@ -37,6 +37,6 @@ dependencies {
     compile files('libs/GetuiSDK2.12.3.0.jar')
 
 //    compile project(':nexus')
-    implementation 'com.github.bmfe.eros-nexus:nexus:1.0.1'
+    implementation 'com.github.bmfe.eros-nexus:nexus:1.0.3'
 }
 
