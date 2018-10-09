@@ -1,10 +1,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.benmu.erosplugingt" >
+    package="com.eros.erosplugingt" >
     <application>
 
         <!--个推-->
 
-        <activity android:name="com.benmu.erosplugingt.activity.ResultActivity" />
+        <activity android:name="com.eros.erosplugingt.activity.ResultActivity" />
 
         <!-- 配置SDK核心服务 -->
         <service
@@ -50,7 +50,7 @@
 
         <!-- 用户自定义服务名 -->
         <service
-            android:name="com.benmu.erosplugingt.GetuiPushService"
+            android:name="com.eros.erosplugingt.GetuiPushService"
             android:exported="true"
             android:label="PushService"
             android:process=":pushservice">

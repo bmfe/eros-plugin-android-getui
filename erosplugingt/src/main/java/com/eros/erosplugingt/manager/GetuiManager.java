@@ -1,8 +1,8 @@
-package com.benmu.erosplugingt.manager;
+package com.eros.erosplugingt.manager;
 
 import android.content.Context;
 
-import com.benmu.erosplugingt.GetuiPushService;
+import com.eros.erosplugingt.GetuiPushService;
 import com.igexin.sdk.PushManager;
 
 /**

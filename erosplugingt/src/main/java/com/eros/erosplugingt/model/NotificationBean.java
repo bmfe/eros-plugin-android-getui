@@ -1,4 +1,4 @@
-package com.benmu.erosplugingt.model;
+package com.eros.erosplugingt.model;
 
 import java.io.Serializable;
 

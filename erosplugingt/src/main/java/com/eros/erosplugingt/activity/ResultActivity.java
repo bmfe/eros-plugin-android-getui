@@ -1,17 +1,17 @@
-package com.benmu.erosplugingt.activity;
+package com.eros.erosplugingt.activity;
 
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 
-import com.benmu.erosplugingt.model.NotificationBean;
-import com.benmu.framework.adapter.router.RouterTracker;
-import com.benmu.framework.constant.Constant;
-import com.benmu.framework.constant.WXEventCenter;
-import com.benmu.framework.manager.ManagerFactory;
-import com.benmu.framework.manager.impl.ParseManager;
-import com.benmu.framework.manager.impl.dispatcher.DispatchEventManager;
-import com.benmu.framework.model.BaseEventBean;
+import com.eros.erosplugingt.model.NotificationBean;
+import com.eros.framework.adapter.router.RouterTracker;
+import com.eros.framework.constant.Constant;
+import com.eros.framework.constant.WXEventCenter;
+import com.eros.framework.manager.ManagerFactory;
+import com.eros.framework.manager.impl.ParseManager;
+import com.eros.framework.manager.impl.dispatcher.DispatchEventManager;
+import com.eros.framework.model.BaseEventBean;
 import com.taobao.weex.WXSDKInstance;
 
 import java.io.Serializable;

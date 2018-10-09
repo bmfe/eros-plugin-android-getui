@@ -1,4 +1,4 @@
-package com.benmu.erosplugingt.manager;
+package com.eros.erosplugingt.manager;
 
 import android.app.Activity;
 import android.app.Notification;
@@ -8,18 +8,18 @@ import android.content.Context;
 import android.content.Intent;
 import android.support.v4.app.NotificationCompat;
 
-import com.benmu.erosplugingt.activity.ResultActivity;
-import com.benmu.erosplugingt.model.NotificationBean;
-import com.benmu.framework.adapter.router.RouterTracker;
-import com.benmu.framework.constant.Constant;
-import com.benmu.framework.constant.WXEventCenter;
-import com.benmu.framework.manager.Manager;
-import com.benmu.framework.manager.ManagerFactory;
-import com.benmu.framework.manager.impl.ParseManager;
-import com.benmu.framework.manager.impl.dispatcher.DispatchEventManager;
-import com.benmu.framework.model.BaseEventBean;
-import com.benmu.framework.utils.ResourceUtil;
-import com.benmu.widget.utils.BaseCommonUtil;
+import com.eros.erosplugingt.activity.ResultActivity;
+import com.eros.erosplugingt.model.NotificationBean;
+import com.eros.framework.adapter.router.RouterTracker;
+import com.eros.framework.constant.Constant;
+import com.eros.framework.constant.WXEventCenter;
+import com.eros.framework.manager.Manager;
+import com.eros.framework.manager.ManagerFactory;
+import com.eros.framework.manager.impl.ParseManager;
+import com.eros.framework.manager.impl.dispatcher.DispatchEventManager;
+import com.eros.framework.model.BaseEventBean;
+import com.eros.framework.utils.ResourceUtil;
+import com.eros.widget.utils.BaseCommonUtil;
 
 import java.util.ArrayList;
 import java.util.HashMap;

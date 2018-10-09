@@ -1,4 +1,4 @@
-package com.benmu.erosplugingt;
+package com.eros.erosplugingt;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -8,10 +8,10 @@ import android.text.TextUtils;
 import android.util.Log;
 
 import com.alibaba.fastjson.JSONObject;
-import com.benmu.erosplugingt.manager.PushManager;
-import com.benmu.framework.manager.ManagerFactory;
-import com.benmu.framework.manager.impl.ParseManager;
-import com.benmu.framework.utils.SharePreferenceUtil;
+import com.eros.erosplugingt.manager.PushManager;
+import com.eros.framework.manager.ManagerFactory;
+import com.eros.framework.manager.impl.ParseManager;
+import com.eros.framework.utils.SharePreferenceUtil;
 import com.igexin.sdk.PushConsts;
 
 /**
