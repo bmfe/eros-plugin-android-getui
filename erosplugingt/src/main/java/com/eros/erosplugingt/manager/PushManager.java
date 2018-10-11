@@ -38,7 +38,7 @@ public class PushManager extends Manager {
         HashMap<String, HashMap<String, String>> result = new HashMap<>();
 
         HashMap<String, String> amapMoudles = new HashMap<>();
-        amapMoudles.put("gtmodule", "com.benmu.erosplugingt.module.WXGTModule");
+        amapMoudles.put("gtmodule", "com.eros.erosplugingt.module.WXGTModule");
 
         result.put(Constant.CUSTOMER_MODULES, amapMoudles);
 
@@ -62,7 +62,7 @@ public class PushManager extends Manager {
             BaseEventBean eventBean = new BaseEventBean();
             eventBean.context = activity;
             eventBean.type = WXEventCenter.EVENT_PUSHMANAGER;
-            eventBean.clazzName = "com.benmu.framework.event.GlobalEvent";
+            eventBean.clazzName = "com.eros.framework.event.GlobalEvent";
             bean.trigger = false;
             ParseManager param = ManagerFactory.getManagerService(ParseManager.class);
             String json = param.toJsonString(bean);
@@ -79,8 +79,8 @@ public class PushManager extends Manager {
 
     private void showNotification(Context context, NotificationBean bean) {
         if (bean == null) return;
-        int iconId = ResourceUtil.getMipmapId("com.benmu.wx", "app_icon");
-        String appName = context.getResources().getString(ResourceUtil.getStringId("com.benmu" +
+        int iconId = ResourceUtil.getMipmapId("com.eros.wx", "app_icon");
+        String appName = context.getResources().getString(ResourceUtil.getStringId("com.eros" +
                 ".wx", "app_name"));
 
         NotificationCompat.Builder mBuilder = new NotificationCompat.Builder(context)
